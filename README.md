@@ -20,12 +20,12 @@
 
 | Layer         | Technology                     |
 |--------------|---------------------------------|
-| Backend       | Spring Boot (Java), WebClient  |
+| Backend       | Spring Boot (Java)             |
 | Frontend      | React, Vite, Material UI       |
 | Chrome Plugin | JavaScript, MutationObserver   |
 | API           | Gemini API (via WebClient)     |
 | Build Tool    | Maven                          |
-| Other         | Axios, JSON, Postman           |
+| API Testing   | Postman                        |
 
 ---
 
@@ -34,7 +34,7 @@
 ### 📦 Backend (Spring Boot)
 1. **Initialize Project**  
    - Use [Spring Initializr](https://start.spring.io/)
-   - Add dependencies: `Spring Web`, `Lombok`
+   - Add dependencies: `Spring Web`, `Lombok`, `Spring Recation Web`
 
 2. **Model Class**
    - Create `EmailRequest` with:
@@ -78,8 +78,4 @@
 - Generate an API key from Gemini
 - Test API using Postman by importing the `curl` request
 - Securely call the API via WebClient in Spring Boot
-
----
-
-## 🗂️ Project Structure
 
